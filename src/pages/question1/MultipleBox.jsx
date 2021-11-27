@@ -38,7 +38,9 @@ export default function MultipleBox() {
     let id = 0
     
     return (
-        <div className="container">
+        <div className="main">
+            <h1>The Box Game</h1>
+            <div className="container">
             
             {DataBag.map((data)=>{
 
@@ -49,5 +51,7 @@ export default function MultipleBox() {
                 )
             })}
         </div>
+        </div>
+        
     )
 }
